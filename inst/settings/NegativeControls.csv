@@ -1,0 +1,199 @@
+targetId,comparatorId,outcomeId,outcomeName,type
+1333,1336,73026,Abnormal breath sounds,outcome
+1333,1336,436409,Abnormal pupil,outcome
+1333,1336,443585,Abrasion and/or friction burn of multiple sites,outcome
+1333,1336,4241033,Acute abdomen,outcome
+1333,1336,438730,Alkalosis,outcome
+1333,1336,4103642,Amputated toe,outcome
+1333,1336,4228429,Carnitine deficiency,outcome
+1333,1336,444367,Cholelithiasis without obstruction,outcome
+1333,1336,201613,Chronic nonalcoholic liver disease,outcome
+1333,1336,438262,Chyluria,outcome
+1333,1336,196454,Colostomy and enterostomy malfunction,outcome
+1333,1336,4180641,Complication of respiratory therapy procedure,outcome
+1333,1336,438759,Descemet's membrane fold,outcome
+1333,1336,4067861,Deviation of finger,outcome
+1333,1336,4101282,Dietary selenium deficiency,outcome
+1333,1336,4101283,Dietary zinc deficiency,outcome
+1333,1336,434482,Diethylstilbestrol poisoning,outcome
+1333,1336,4181744,Discharge from nipple,outcome
+1333,1336,434887,Disorders of bilirubin excretion,outcome
+1333,1336,372329,Dissociated deviation,outcome
+1333,1336,4029271,Essential fatty acid deficiency,outcome
+1333,1336,193598,Extravasation of urine,outcome
+1333,1336,4229403,Flat anterior chamber of eye,outcome
+1333,1336,434854,Food poisoning,outcome
+1333,1336,374801,Foreign body in ear,outcome
+1333,1336,441487,Frostbite,outcome
+1333,1336,434164,Glycosuria,outcome
+1333,1336,79864,Hematuria syndrome,outcome
+1333,1336,321414,Hemoglobinuria,outcome
+1333,1336,4295287,Hypercoagulability state,outcome
+1333,1336,4214376,Hyperglycemia,outcome
+1333,1336,78474,Hypertrophy of breast,outcome
+1333,1336,434004,Hypervolemia,outcome
+1333,1336,437390,Hypoxemia,outcome
+1333,1336,443447,Iatrogenic hypotension,outcome
+1333,1336,4146209,Iron deficiency,outcome
+1333,1336,197676,Large liver,outcome
+1333,1336,133088,Late amputation stump complication,outcome
+1333,1336,436041,Leech infestation,outcome
+1333,1336,377873,Lid lag,outcome
+1333,1336,435516,Lipoprotein deficiency disorder,outcome
+1333,1336,436426,Malleus mobility reduced,outcome
+1333,1336,434005,Morbid obesity,outcome
+1333,1336,4195085,Nasal congestion,outcome
+1333,1336,443933,Nicotiana tabacum poisoning,outcome
+1333,1336,375277,Non-infectious pinna disorders,outcome
+1333,1336,438120,Opioid dependence,outcome
+1333,1336,138858,Pale complexion,outcome
+1333,1336,435849,Parietoalveolar pneumopathy,outcome
+1333,1336,253796,Pneumothorax,outcome
+1333,1336,440001,Poisoning by salicylate,outcome
+1333,1336,433385,Poisoning caused by iron and/or iron compound,outcome
+1333,1336,4239004,Poisoning caused by reptile venom,outcome
+1333,1336,4305376,Porphyria,outcome
+1333,1336,253797,Post-inflammatory pulmonary fibrosis,outcome
+1333,1336,4202045,Postviral fatigue syndrome,outcome
+1333,1336,36714927,Sequelae of infectious disease,outcome
+1333,1336,4248728,Snoring,outcome
+1333,1336,443172,"Splinter of face, without major open wound",outcome
+1333,1336,438252,Spontaneous ecchymosis,outcome
+1333,1336,437732,Toxic effect of chromium,outcome
+1333,1336,443892,Toxic effect of hydrocyanic acid,outcome
+1333,1336,4201387,Tracheostomy present,outcome
+1333,1336,195590,Urethral stricture,outcome
+1333,1336,200845,Urgent desire to urinate,outcome
+1333,1336,314754,Wheezing,outcome
+1333,1335,73026,Abnormal breath sounds,outcome
+1333,1335,436409,Abnormal pupil,outcome
+1333,1335,443585,Abrasion and/or friction burn of multiple sites,outcome
+1333,1335,4241033,Acute abdomen,outcome
+1333,1335,438730,Alkalosis,outcome
+1333,1335,4103642,Amputated toe,outcome
+1333,1335,4228429,Carnitine deficiency,outcome
+1333,1335,444367,Cholelithiasis without obstruction,outcome
+1333,1335,201613,Chronic nonalcoholic liver disease,outcome
+1333,1335,438262,Chyluria,outcome
+1333,1335,196454,Colostomy and enterostomy malfunction,outcome
+1333,1335,4180641,Complication of respiratory therapy procedure,outcome
+1333,1335,438759,Descemet's membrane fold,outcome
+1333,1335,4067861,Deviation of finger,outcome
+1333,1335,4101282,Dietary selenium deficiency,outcome
+1333,1335,4101283,Dietary zinc deficiency,outcome
+1333,1335,434482,Diethylstilbestrol poisoning,outcome
+1333,1335,4181744,Discharge from nipple,outcome
+1333,1335,434887,Disorders of bilirubin excretion,outcome
+1333,1335,372329,Dissociated deviation,outcome
+1333,1335,4029271,Essential fatty acid deficiency,outcome
+1333,1335,193598,Extravasation of urine,outcome
+1333,1335,4229403,Flat anterior chamber of eye,outcome
+1333,1335,434854,Food poisoning,outcome
+1333,1335,374801,Foreign body in ear,outcome
+1333,1335,441487,Frostbite,outcome
+1333,1335,434164,Glycosuria,outcome
+1333,1335,79864,Hematuria syndrome,outcome
+1333,1335,321414,Hemoglobinuria,outcome
+1333,1335,4295287,Hypercoagulability state,outcome
+1333,1335,4214376,Hyperglycemia,outcome
+1333,1335,78474,Hypertrophy of breast,outcome
+1333,1335,434004,Hypervolemia,outcome
+1333,1335,437390,Hypoxemia,outcome
+1333,1335,443447,Iatrogenic hypotension,outcome
+1333,1335,4146209,Iron deficiency,outcome
+1333,1335,197676,Large liver,outcome
+1333,1335,133088,Late amputation stump complication,outcome
+1333,1335,436041,Leech infestation,outcome
+1333,1335,377873,Lid lag,outcome
+1333,1335,435516,Lipoprotein deficiency disorder,outcome
+1333,1335,436426,Malleus mobility reduced,outcome
+1333,1335,434005,Morbid obesity,outcome
+1333,1335,4195085,Nasal congestion,outcome
+1333,1335,443933,Nicotiana tabacum poisoning,outcome
+1333,1335,375277,Non-infectious pinna disorders,outcome
+1333,1335,438120,Opioid dependence,outcome
+1333,1335,138858,Pale complexion,outcome
+1333,1335,435849,Parietoalveolar pneumopathy,outcome
+1333,1335,253796,Pneumothorax,outcome
+1333,1335,440001,Poisoning by salicylate,outcome
+1333,1335,433385,Poisoning caused by iron and/or iron compound,outcome
+1333,1335,4239004,Poisoning caused by reptile venom,outcome
+1333,1335,4305376,Porphyria,outcome
+1333,1335,253797,Post-inflammatory pulmonary fibrosis,outcome
+1333,1335,4202045,Postviral fatigue syndrome,outcome
+1333,1335,36714927,Sequelae of infectious disease,outcome
+1333,1335,4248728,Snoring,outcome
+1333,1335,443172,"Splinter of face, without major open wound",outcome
+1333,1335,438252,Spontaneous ecchymosis,outcome
+1333,1335,437732,Toxic effect of chromium,outcome
+1333,1335,443892,Toxic effect of hydrocyanic acid,outcome
+1333,1335,4201387,Tracheostomy present,outcome
+1333,1335,195590,Urethral stricture,outcome
+1333,1335,200845,Urgent desire to urinate,outcome
+1333,1335,314754,Wheezing,outcome
+1333,1342,73026,Abnormal breath sounds,outcome
+1333,1342,436409,Abnormal pupil,outcome
+1333,1342,443585,Abrasion and/or friction burn of multiple sites,outcome
+1333,1342,4241033,Acute abdomen,outcome
+1333,1342,438730,Alkalosis,outcome
+1333,1342,4103642,Amputated toe,outcome
+1333,1342,4228429,Carnitine deficiency,outcome
+1333,1342,444367,Cholelithiasis without obstruction,outcome
+1333,1342,201613,Chronic nonalcoholic liver disease,outcome
+1333,1342,438262,Chyluria,outcome
+1333,1342,196454,Colostomy and enterostomy malfunction,outcome
+1333,1342,4180641,Complication of respiratory therapy procedure,outcome
+1333,1342,438759,Descemet's membrane fold,outcome
+1333,1342,4067861,Deviation of finger,outcome
+1333,1342,4101282,Dietary selenium deficiency,outcome
+1333,1342,4101283,Dietary zinc deficiency,outcome
+1333,1342,434482,Diethylstilbestrol poisoning,outcome
+1333,1342,4181744,Discharge from nipple,outcome
+1333,1342,434887,Disorders of bilirubin excretion,outcome
+1333,1342,372329,Dissociated deviation,outcome
+1333,1342,4029271,Essential fatty acid deficiency,outcome
+1333,1342,193598,Extravasation of urine,outcome
+1333,1342,4229403,Flat anterior chamber of eye,outcome
+1333,1342,434854,Food poisoning,outcome
+1333,1342,374801,Foreign body in ear,outcome
+1333,1342,441487,Frostbite,outcome
+1333,1342,434164,Glycosuria,outcome
+1333,1342,79864,Hematuria syndrome,outcome
+1333,1342,321414,Hemoglobinuria,outcome
+1333,1342,4295287,Hypercoagulability state,outcome
+1333,1342,4214376,Hyperglycemia,outcome
+1333,1342,78474,Hypertrophy of breast,outcome
+1333,1342,434004,Hypervolemia,outcome
+1333,1342,437390,Hypoxemia,outcome
+1333,1342,443447,Iatrogenic hypotension,outcome
+1333,1342,4146209,Iron deficiency,outcome
+1333,1342,197676,Large liver,outcome
+1333,1342,133088,Late amputation stump complication,outcome
+1333,1342,436041,Leech infestation,outcome
+1333,1342,377873,Lid lag,outcome
+1333,1342,435516,Lipoprotein deficiency disorder,outcome
+1333,1342,436426,Malleus mobility reduced,outcome
+1333,1342,434005,Morbid obesity,outcome
+1333,1342,4195085,Nasal congestion,outcome
+1333,1342,443933,Nicotiana tabacum poisoning,outcome
+1333,1342,375277,Non-infectious pinna disorders,outcome
+1333,1342,438120,Opioid dependence,outcome
+1333,1342,138858,Pale complexion,outcome
+1333,1342,435849,Parietoalveolar pneumopathy,outcome
+1333,1342,253796,Pneumothorax,outcome
+1333,1342,440001,Poisoning by salicylate,outcome
+1333,1342,433385,Poisoning caused by iron and/or iron compound,outcome
+1333,1342,4239004,Poisoning caused by reptile venom,outcome
+1333,1342,4305376,Porphyria,outcome
+1333,1342,253797,Post-inflammatory pulmonary fibrosis,outcome
+1333,1342,4202045,Postviral fatigue syndrome,outcome
+1333,1342,36714927,Sequelae of infectious disease,outcome
+1333,1342,4248728,Snoring,outcome
+1333,1342,443172,"Splinter of face, without major open wound",outcome
+1333,1342,438252,Spontaneous ecchymosis,outcome
+1333,1342,437732,Toxic effect of chromium,outcome
+1333,1342,443892,Toxic effect of hydrocyanic acid,outcome
+1333,1342,4201387,Tracheostomy present,outcome
+1333,1342,195590,Urethral stricture,outcome
+1333,1342,200845,Urgent desire to urinate,outcome
+1333,1342,314754,Wheezing,outcome
