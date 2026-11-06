@@ -1,6 +1,6 @@
 # Copyright 2022 Observational Health Data Sciences and Informatics
 #
-# This file is part of Osteo
+# This file is part of APACementia
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ createCohorts <- function(connectionDetails,
   CohortGenerator::createCohortTables(connection = connection,
                                       cohortDatabaseSchema = cohortDatabaseSchema,
                                       cohortTableNames = cohortTableNames)
-  cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(packageName = "Osteo",
+  cohortDefinitionSet <- CohortGenerator::getCohortDefinitionSet(packageName = "APACementia",
                                                                  settingsFileName = "Cohorts.csv",
                                                                  cohortFileNameValue = "cohortId")
   CohortGenerator::generateCohortSet(connection = connection,
@@ -40,12 +40,12 @@ createCohorts <- function(connectionDetails,
                                      cohortDefinitionSet = cohortDefinitionSet)
   
   message("Creating negative control outcome cohorts")
-  pathToCsv <- system.file("settings", "NegativeControls.csv", package = "Osteo")
+  pathToCsv <- system.file("settings", "NegativeControls.csv", package = "APACementia")
   negativeControls <- read.csv(pathToCsv)
   # Currently assuming all negative controls are outcome controls
   negativeControlOutcomes <- negativeControls
   sql <- SqlRender::loadRenderTranslateSql("NegativeControlOutcomes.sql",
-                                           "Osteo",
+                                           "APACementia",
                                            dbms = connectionDetails$dbms,
                                            tempEmulationSchema = tempEmulationSchema,
                                            cdm_database_schema = cdmDatabaseSchema,
@@ -65,9 +65,9 @@ createCohorts <- function(connectionDetails,
 }
 
 addCohortNames <- function(data, IdColumnName = "cohortId", nameColumnName = "cohortName") {
-  pathToCsv <- system.file("Cohorts.csv", package = "Osteo")
+  pathToCsv <- system.file("Cohorts.csv", package = "APACementia")
   cohortsToCreate <- read.csv(pathToCsv)
-  pathToCsv <- system.file("settings", "NegativeControls.csv", package = "Osteo")
+  pathToCsv <- system.file("settings", "NegativeControls.csv", package = "APACementia")
   negativeControls <- read.csv(pathToCsv)
   
   idToName <- data.frame(cohortId = c(cohortsToCreate$cohortId,

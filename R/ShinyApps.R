@@ -1,6 +1,6 @@
 # Copyright 2022 Observational Health Data Sciences and Informatics
 #
-# This file is part of Osteo
+# This file is part of APACementia
 # 
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -90,7 +90,7 @@ launchEvidenceExplorer <- function(dataFolder, blind = TRUE, launch.browser = TR
   dataFolder <- normalizePath(dataFolder)
   ensure_installed("shiny")
   ensure_installed("DT")
-  appDir <- system.file("shiny", "EvidenceExplorer", package = "Osteo")
+  appDir <- system.file("shiny", "EvidenceExplorer", package = "APACementia")
   .GlobalEnv$shinySettings <- list(dataFolder = dataFolder, blind = blind)
   on.exit(rm("shinySettings", envir = .GlobalEnv))
   shiny::runApp(appDir) 

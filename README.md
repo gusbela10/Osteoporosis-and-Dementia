@@ -1,4 +1,4 @@
-Osteo
+APACementia
 ==============================
 
 
@@ -19,7 +19,7 @@ How to run
 
     ```r
     install.packages("renv")
-    download.file("https://raw.githubusercontent.com/ohdsi-studies/Osteo/main/renv.lock", "renv.lock")
+    download.file("https://raw.githubusercontent.com/ohdsi-studies/APACementia/main/renv.lock", "renv.lock")
     renv::init()
     ```  
     
@@ -28,7 +28,7 @@ How to run
 3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
 
     ```r
-    library(Osteo)
+    library(APACementia)
 
     # Optional: specify where the temporary files (used by the Andromeda package) will be created:
     options(andromedaTempFolder = "s:/andromedaTemp")
@@ -40,7 +40,7 @@ How to run
     minCellCount <- 5
 	
     # The folder where the study intermediate and result files will be written:
-    outputFolder <- "c:/Osteo"
+    outputFolder <- "c:/APACementia"
 	
     # Details for connecting to the server:
     # See ?DatabaseConnector::createConnectionDetails for help
@@ -99,11 +99,11 @@ How to run
 
 License
 =======
-The Osteo package is licensed under Apache License 2.0
+The APACementia package is licensed under Apache License 2.0
 
 Development
 ===========
-Osteo was developed in ATLAS and R Studio.
+APACementia was developed in ATLAS and R Studio.
 
 ### Development status
 

@@ -1516,6 +1516,323 @@
       ]},
       "name": "Nitrogen-containing bisphosphonates",
       "id": 15
+    },
+    {
+      "expression": {"items": []},
+      "name": "Fragility fractures",
+      "id": 16
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43021792,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "473438000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chance flexion distraction fracture of vertebra",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4135096,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "263068000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture dislocation of spine",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4129393,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "125606003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of cervical spine",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4053654,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "125871005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of coccyx",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4134322,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "263199001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of distal end of radius",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 433856,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "5913000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of neck of femur",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4321893,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9966008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of neural arch",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4300192,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "77493009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of pelvis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4138412,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "263225007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of proximal end of femur",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4273394,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "64728002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of spine due to birth trauma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4275900,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "64306000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of spinous process of vertebra",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4306785,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83635002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of transverse process of vertebra",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4133610,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "127286005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of upper end of humerus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4174520,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "50448004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of vertebral column",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4066995,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1734006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fracture of vertebral column with spinal cord injury",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4264281,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "397181002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Open fracture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40480160,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "443165006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Osteoporotic fracture",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44792139,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "335771000000106",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Stress fracture of pars interarticularis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Unnamed Concept Set",
+      "id": 17
     }
   ],
   "cdmVersionRange": ">=5.0.0",

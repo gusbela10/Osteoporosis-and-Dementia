@@ -1,6 +1,6 @@
 # Copyright 2022 Observational Health Data Sciences and Informatics
 #
-# This file is part of Osteo
+# This file is part of APACementia
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -75,7 +75,7 @@ exportAnalyses <- function(outputFolder, exportFolder) {
   
   cmAnalysisListFile <- system.file("settings",
                                     "cmAnalysisList.json",
-                                    package = "Osteo")
+                                    package = "APACementia")
   cmAnalysisList <- CohortMethod::loadCmAnalysisList(cmAnalysisListFile)
   cmAnalysisToRow <- function(cmAnalysis) {
     ParallelLogger::saveSettingsToJson(cmAnalysis, tempFileName)
@@ -113,13 +113,13 @@ exportAnalyses <- function(outputFolder, exportFolder) {
 exportExposures <- function(outputFolder, exportFolder) {
   message("Exporting exposures")
   message("- exposure_of_interest table")
-  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "Osteo")
+  pathToCsv <- system.file("settings", "TcosOfInterest.csv", package = "APACementia")
   tcosOfInterest <- read.csv(pathToCsv, stringsAsFactors = FALSE)
-  pathToCsv <- system.file("Cohorts.csv", package = "Osteo")
+  pathToCsv <- system.file("Cohorts.csv", package = "APACementia")
   cohortsToCreate <- read.csv(pathToCsv)
   createExposureRow <- function(exposureId) {
     cohortName <- as.character(cohortsToCreate$cohortName[cohortsToCreate$cohortId == exposureId])
-    cohortFileName <- system.file("cohorts", paste0(exposureId, ".json"), package = "Osteo")
+    cohortFileName <- system.file("cohorts", paste0(exposureId, ".json"), package = "APACementia")
     definition <- readChar(cohortFileName, file.info(cohortFileName)$size)
     return(tibble::tibble(exposureId = exposureId,
                           exposureName = cohortName,
@@ -136,11 +136,11 @@ exportExposures <- function(outputFolder, exportFolder) {
 exportOutcomes <- function(outputFolder, exportFolder) {
   message("Exporting outcomes")
   message("- outcome_of_interest table")
-  pathToCsv <- system.file("Cohorts.csv", package = "Osteo")
+  pathToCsv <- system.file("Cohorts.csv", package = "APACementia")
   cohortsToCreate <- read.csv(pathToCsv)
   createOutcomeRow <- function(outcomeId) {
     cohortName <- as.character(cohortsToCreate$cohortName[cohortsToCreate$cohortId == outcomeId])
-    cohortFileName <- system.file("cohorts", paste0(outcomeId, ".json"), package = "Osteo")
+    cohortFileName <- system.file("cohorts", paste0(outcomeId, ".json"), package = "APACementia")
     definition <- readChar(cohortFileName, file.info(cohortFileName)$size)
     return(tibble::tibble(outcomeId = outcomeId,
                           outcomeName = cohortName,
@@ -155,7 +155,7 @@ exportOutcomes <- function(outputFolder, exportFolder) {
   
   
   message("- negative_control_outcome table")
-  pathToCsv <- system.file("settings", "NegativeControls.csv", package = "Osteo")
+  pathToCsv <- system.file("settings", "NegativeControls.csv", package = "APACementia")
   negativeControls <- read.csv(pathToCsv)
   negativeControls <- negativeControls[tolower(negativeControls$type) == "outcome", ]
   negativeControls <- negativeControls[, c("outcomeId", "outcomeName")]
@@ -167,7 +167,7 @@ exportOutcomes <- function(outputFolder, exportFolder) {
   synthesisSummaryFile <- file.path(outputFolder, "SynthesisSummary.csv")
   if (file.exists(synthesisSummaryFile)) {
     positiveControls <- read.csv(synthesisSummaryFile, stringsAsFactors = FALSE)
-    pathToCsv <- system.file("settings", "NegativeControls.csv", package = "Osteo")
+    pathToCsv <- system.file("settings", "NegativeControls.csv", package = "APACementia")
     negativeControls <- read.csv(pathToCsv)
     positiveControls <- merge(positiveControls,
                               negativeControls[, c("outcomeId", "outcomeName")])
@@ -238,7 +238,7 @@ exportMetadata <- function(outputFolder,
                      vocabularyVersion = vocabularyVersion,
                      minObsPeriodDate = observationPeriodRange$minDate,
                      maxObsPeriodDate = observationPeriodRange$maxDate,
-                     studyPackageVersion = utils::packageVersion("Osteo"),
+                     studyPackageVersion = utils::packageVersion("APACementia"),
                      isMetaAnalysis = 0)
   colnames(database) <- SqlRender::camelCaseToSnakeCase(colnames(database))
   fileName <- file.path(exportFolder, "database.csv")
@@ -897,7 +897,7 @@ exportDiagnostics <- function(outputFolder,
     dir.create(tempFolder)
   }
   cluster <- ParallelLogger::makeCluster(min(4, maxCores))
-  ParallelLogger::clusterRequire(cluster, "Osteo")
+  ParallelLogger::clusterRequire(cluster, "APACementia")
   tasks <- split(reference, seq(nrow(reference)))
   ParallelLogger::clusterApply(cluster,
                                tasks,

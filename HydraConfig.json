@@ -5,11 +5,11 @@
 	"actions":[{
 		"type": "fileNameFindAndReplace",
 		"input": "packageName",
-		"find": "Osteo"
+		"find": "APACementia"
 	},{
 		"type": "stringFindAndReplace",
 		"input": "packageName",
-		"find": "Osteo"
+		"find": "APACementia"
 	},{
 		"type": "jsonArrayToCsv",
 		"input": "cohortDefinitions",

@@ -1,4 +1,4 @@
-library(Osteo)
+library(APACementia)
 
 # Optional: specify where the temporary files (used by the Andromeda package) will be created:
 options(andromedaTempFolder = "d:/andromedaTemp")
@@ -7,7 +7,7 @@ options(andromedaTempFolder = "d:/andromedaTemp")
 maxCores <- parallel::detectCores() - 1
 
 # The folder where the study intermediate and result files will be written:
-outputFolder <- "d:/Osteo"
+outputFolder <- "d:/APACementia"
 
 # Details for connecting to the server:
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "redshift",

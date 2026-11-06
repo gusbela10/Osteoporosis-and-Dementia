@@ -1,6 +1,6 @@
 # Code that can be used to test whether the meta-analysis functionality works
-library(Osteo)
-exportFolder <- "D:/Osteo/export"
+library(APACementia)
+exportFolder <- "D:/APACementia/export"
 
 # Create a dummy additional database by copying all CSV files and changing the database ID --------------------------------
 databaseId <- "Dummy"

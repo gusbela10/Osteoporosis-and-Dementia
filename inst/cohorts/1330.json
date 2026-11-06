@@ -1828,11 +1828,6 @@
       ]},
       "name": "Fragility fracture",
       "id": 16
-    },
-    {
-      "expression": {"items": []},
-      "name": "Unnamed Concept Set",
-      "id": 17
     }
   ],
   "cdmVersionRange": ">=5.0.0",
